@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: block;
+}
+
+#submit {
+    background-color: blue;
+    width: 50%;
+    height: 50px;
+    color: white;
+    font-size: 1.5em;
+}
+
+#name {
+    text-align: left;
+}
+
+#textarea {
+    width: 50%;
+}
+
+#thema {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 50%;
+}
+
+#fname {
+    width: 24.5%;
+}
+
+#lname {
+    width: 24.5%;
+}

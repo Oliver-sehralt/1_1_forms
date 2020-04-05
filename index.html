@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name" id="name">Name <span style="color: red;">*</span></label><br>
+            <input type="text" id="fname" name="fname" placeholder="Vorname" required>
+            <input type="text" id="lname" name="lname" placeholder="Nachname" required>
+        </div>
+        <div>
+            <label for="email">Email <span style="color: red;">*</span></label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="thema">Thema</label><br>
+            <select id="thema" name="thema">
+                <option value="general">General</option>
+                <option value="advertise">Advertise</option>
+                <option value="partnership">Partnership</option>
+              </select>
+         </div>
+         <div>
+             <label for="message">Nachricht <span style="color: red;">*</span></label><br>
+             <textarea name="message" id="textarea" rows="10" cols="30" required>
+               </textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit" id="submit">
+        </div>
+    </form>
+</body>
+</html>
